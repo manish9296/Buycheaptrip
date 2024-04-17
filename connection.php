@@ -1,7 +1,7 @@
 <?php
 
-$conn = mysqli_connect('localhost','root','','buycheaptrip');
-mysqli_select_db($conn,"buycheaptrip");
+$conn = mysqli_connect('localhost','root','12345','bycheaptrip');
+mysqli_select_db($conn,"bycheaptrip");
 // Check connection
 if (mysqli_connect_errno())
   {
