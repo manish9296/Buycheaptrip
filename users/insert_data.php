@@ -12,6 +12,11 @@ $package_inr = $_POST['package_inr1'];
 $account_id = $_POST['account_id'];
 $randc = $_POST['randomNumber11'];
 $inrperpersion = $_POST['inrperpersion'];
+$hotelcity = array();
+foreach($_POST['city'] as $city){
+    $hotelcity = $city;
+};
+print_r($_POST['city']);
 
 // Step 5: Sanitize and validate form data
 // Here you should use proper validation and sanitization techniques
